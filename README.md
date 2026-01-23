@@ -3,7 +3,7 @@
 这是一个基于 golang 开发的微信测试公众号模板消息推送服务。它提供了一个简单的 API 接口，让您可以轻松地通过 HTTP 请求将消息推送到指定的微信用户。
 
 <p align="center">
-<img src="./img/logo.png">
+<img src="https://s2.loli.net/2026/01/23/sZNu9dCtIkFS4D7.png">
 </p>
 
 ## ✨ 特性
@@ -19,9 +19,9 @@
 
 ## ⚠️ 部署条件
 
-- [微信公众平台接口测试帐号申请](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)
+- [微信公众平台接口测试帐号申请](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)  
 ![wx1.png](img/wx1.png)
-- 获取appid 、appsecret
+- 获取appid 、appsecret  
 ![wx2.png](img/wx2.png)
 - 关注测试公众号，获取userid(微信号)，新增测试模板(注意模版内容填写格式 `内容: {{content.DATA}}`)  获取template_id(模板ID)
 ![wx3.png](img/wx3.png)
